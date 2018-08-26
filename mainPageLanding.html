@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/mainCss.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <script src="js/js.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+</head>
+<body>
+       <header id="header" class="header">
+                <nav class="navbar navbar-dark navbar-expand-sm bg-dark fixed-top" id="nav-bar">
+                    <a class="navbar-brand" href="#">
+                        <img id="header-img" src="https://res.cloudinary.com/inspiredbytravel/image/upload/v1532364470/Stoneandname_white_wm2_250px.png" alt="Logo" style="width:40px;">
+                    </a>
+                    <button class="navbar-toggler" type="button butt" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link" href="#top">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#services">Our services</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#videoTop">Video</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+                         </ul>
+                    </div>
+                </nav>
+            </header>
+            
+            <section id="top">
+                <div class="column">
+                    
+                </div>
+                <div class="column">
+                    <div class="description">
+                        <h1>Inspired by travel</h1>
+                        <p> Do you want to travel more? </p>    
+                        <p> Do you need some help organizing your travel properly?</p>  
+                        <p> Give us your email and we will send you our brochure.</p>
+                        <form id="form" action="https://www.freecodecamp.com/email-submit">
+                            <input name="email" id="email" type="email" placeholder="Enter your email address" required/>
+                            <input id="submit" type="submit" value="Send me a brochure" class="btn btn-secondary"></input>
+                          </form>  
+                    </div>
+                </div>
+                <div class="column">
+                           
+                </div>
+            </section>
+            
+            <section id="services" class="container">
+                <div class="row">
+                    <div class="grid">
+                        <img src="https://res.cloudinary.com/inspiredbytravel/image/upload/v1532364550/route700px.png" alt="routeIcon"style="height:100px; padding:10px">
+                        <div class="">
+                          <h3>Travel planer</h3>
+                          <p>We will provide you with a fully detailed travel plan, with timing and transport to and from where you want</p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="row">
+                    <div class="grid">
+                        <img src="https://res.cloudinary.com/inspiredbytravel/image/upload/v1532364551/transportAndAcomodation700px.png" alt="transportAndAcomodation" style="height:100px; padding:10px">
+                        <div class="">
+                           <h3>Hotel and plane reservation.</h3>
+                           <p>We will arrange all your transport and accommodation, always including your preferences and desires, as well as finding the most convenient location.</p>
+                      </div>
+                   </div>
+                </div>
+            
+                <div class="row">
+                    <div class="grid">
+                        <img src="https://res.cloudinary.com/inspiredbytravel/image/upload/v1532364551/VideoAndPhoto700px.png" alt="videoEditingLogo"style="height:100px; padding:10px">
+                        <div class="">
+                            <h3>Videos and Photo album.</h3>
+                            <p>Bring all your photos and videos and we will provide stunning and professionally edited videos of your holidays for you to share on your social media.</p>
+                        </div> 
+                    </div>
+                </div>
+            </section>
+            
+            <section id="videoTop" class="container">
+                <h3 class="sectionTitle">Here is an example of our videos</h3>
+                <div class="videoWrapper">
+                   <iframe id="video" width="100%" height="100%" src="https://www.youtube.com/embed/UJNdvpcqGhM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+            </section>
+            <section id="pricing" class="container">
+                <div class="row" >
+                    <div class="column">
+                        <h2>Just a heads up</h2>
+                        <p>A full guide of your holiday destination, tailor-made for you, taking in consideration your specifics desires and circumstances.</p>
+                        <h3>PRICE: from 199€</h3>
+                    </div>
+                    <div class="column">
+                        <h2>Full travel</h2>
+                        <p>Our travelling package: We will give you the whole travel plan as well as reservation of transport and accommodation.</p>
+                        <h3>PRICE: from 299€*</h3>
+                    </div>
+                    <div class="column">
+                        <h2>V.I.P Travel</h2>
+                        <p>Our full package: All the previous plus we will produce your holiday video and provide with your own personal photo album (Digital and printed).</p>
+                        <h3>PRICE: from 799€*</h3>
+                    </div>
+                </div>
+              <p class="disclaimer">*Price <b>DO NOT</b> include the purchase of the transport tickets or hotel payment, only the reservation. The payment of those are resposability of the customer. </p>
+            </section>
+            
+            <footer class="navbar navbar-dark navbar-expand-sm bg-dark " id="footer">
+                <div>
+                <ul class="navbar-nav ">
+                    <li class="nav-item"><a id="nav-link" href="#">Privacy  </a></li>
+                    <li class="nav-item"><a id="nav-link" href="#"> Terms  </a></li>
+                    <li class="nav-item"><a id="nav-link" href="#"> Contact </a></li>
+                </ul>
+                <p>Copyright <a href="">J.D.H.</a> for <a href="">Freecodecamp</a></p>
+                </div>
+            </footer>
+</body>
+
+</html>
